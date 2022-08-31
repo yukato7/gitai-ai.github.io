@@ -1,0 +1,56 @@
+/* 基本スタイル（PC向けスタイル） */
+body {
+    /* background-color: #557f89; */
+    background-color: #70939B;
+    color: white;
+    font-family: Hiragino Mincho ProN;
+}
+
+.main-container {
+    margin: auto;
+    width: 80%;
+}
+
+.img-box {
+    text-align: center;
+}
+
+.main-img {
+    width:800px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-desc {
+    width:800px;
+    font-size: 32px;
+    margin: auto;
+    line-height: 1.5;
+}
+.main-info {
+    width:800px;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 540px) {
+    .main-img {
+        width: 300px;
+    }
+
+    .main-desc {
+        width:300px;
+        font-size: 14px;
+        margin: auto;
+    }
+    .main-info {
+        width:300px;
+        font-size: 12px;
+    }
+    .main-desc p {
+        margin: 20px;
+        line-height: 2;
+    }
+}
