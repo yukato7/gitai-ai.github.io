@@ -6,6 +6,11 @@ body {
     font-family: Hiragino Mincho ProN;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .main-container {
     margin: auto;
     width: 80%;
