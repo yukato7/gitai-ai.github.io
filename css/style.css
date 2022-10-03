@@ -43,12 +43,17 @@ iframe {
     width:700px;
     height:720px;
     border-width: 0px;
+    margin-bottom: 80px;
 }
 
 .place-title {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 48px;
+}
+
+.a-scene {
+    margin-bottom: 30px;
 }
 
 
