@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+     <script src="https://unpkg.com/aframe-orbit-controls@1.2.0/dist/aframe-orbit-controls.min.js"></script>
+  </head>
+    </head>
+    <body>
+
+    <a-scene>
+    <a-entity camera look-controls orbit-controls="arget: 0 1.6 1; maxPolarAngle:180; minDistance: 0.5; maxDistance: 200; initialPosition: 0 0 4;"></a-entity>
+        <a-assets timeout="10000">
+            <a-asset-item id="gltf" src="./model/gitai-ai-2.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-gltf-model src="#gltf"  position="0 -1 0" rotation="0 0 0"></a-gltf-model>
+        <a-sky color="#8A6C5B"></a-sky>
+    </a-scene>
+
+</body>
