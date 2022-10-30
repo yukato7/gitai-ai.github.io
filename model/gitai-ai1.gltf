@@ -1,0 +1,194 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.5083578824996948,
+                0.7080783247947693,
+                0.05116472393274307,
+                0.48742133378982544
+            ],
+            "translation" : [
+                0.28824836015701294,
+                4.473272323608398,
+                -0.6794949769973755
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.602567195892334,
+                -0.014852503314614296,
+                0.00740497512742877,
+                0.7978955507278442
+            ],
+            "translation" : [
+                -0.034404296427965164,
+                2.985527753829956,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Scaniverse_2022_10_01_162834",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                1.59299635887146,
+                1.59299635887146,
+                1.59299635887146
+            ],
+            "translation" : [
+                -0.22193922102451324,
+                0,
+                -0.3405430018901825
+            ]
+        },
+        {
+            "name" : "\u30a8\u30ea\u30a2",
+            "rotation" : [
+                0.34204551577568054,
+                0,
+                0,
+                0.9396833777427673
+            ],
+            "translation" : [
+                0,
+                4.230035781860352,
+                3.35038685798645
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "main",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Scaniverse_2022_10_01_162834",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Scaniverse_2022_10_01_162834",
+            "uri" : "texture.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 496539,
+            "max" : [
+                1.084149956703186,
+                0.8398000001907349,
+                -0.016359999775886536
+            ],
+            "min" : [
+                -0.5936400294303894,
+                0.057360000908374786,
+                -1.459130048751831
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 496539,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 496539,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 496539,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 5958468,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5958468,
+            "byteOffset" : 5958468
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3972312,
+            "byteOffset" : 11916936
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1986156,
+            "byteOffset" : 15889248
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 17875404,
+            "uri" : "gitai-ai-2.bin"
+        }
+    ]
+}
